@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <script src="dist/WebRecorder.min.js"></script>
+  <!--<script src="dist/WebTracker.min.js"></script>-->
+  <script src="web-tracker-1.0.js"></script>
+  <script src="jquery.min.js"></script>
 </head>
 <body>
-  <p>呵呵</p>
+  <p>测试</p>
 </body>
 <script>
-    let webTracker = WebRecorder.createByAppId();
-    webTracker.recordBehavior(1, 2, '呵呵+&=-asd123！@#！@#', "httpsd搭撒记录反而://&f%o#o^=.");
+    var webTracker = new WebTracker(1);
+    webTracker.recordBehavior(1, 'a', '呵呵+&=-asd123！@#！@#', "httpsd搭撒记录反而://&f%o#o^=.");
 </script>
 </html>

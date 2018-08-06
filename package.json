@@ -1,20 +1,9 @@
 {
-  "name": "web-tracker",
+  "name": "web-recorder",
   "version": "1.0.0",
   "description": "浏览器端用户行为记录组件",
   "scripts": {
-    "test": "node server.js",
-    "build": "./node_modules/.bin/webpack-cli"
+    "test": "node server.js"
   },
-  "author": "Dongdong Wang",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "webpack": "^4.16.4",
-    "webpack-cli": "^3.1.0"
-  },
-  "dependencies": {
-    "jquery": "^3.3.1"
-  }
+  "author": "Dongdong Wang"
 }
