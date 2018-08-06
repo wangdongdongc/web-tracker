@@ -1,5 +1,5 @@
 {
-  "name": "web-recorder",
+  "name": "web-tracker",
   "version": "1.0.0",
   "description": "浏览器端用户行为记录组件",
   "scripts": {
